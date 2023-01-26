@@ -1,5 +1,5 @@
 <?php 
-// require_once 'db.php';
+require_once 'db.php';
 require_once 'phpqrcode/qrlib.php';
 
 if(isset($_POST["qrcode"])) {
