@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcode {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #eee;
+}
+
+.qrcode__title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #111;
+}
+
+.qrcode__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px 0;
+}
+
+.qrcode__input {
+    width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+}
+
+.qrcode__btn {
+    width: 30%;
+    height: 35px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    background-color: #111;
+    cursor: pointer;
+}
