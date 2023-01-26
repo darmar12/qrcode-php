@@ -1,7 +1,7 @@
 <?php
 $DBHost = "localhost";
 $DBLogin = 'root';
-$DBPassword = '';
+$DBPassword = 'root';
 $DBName = "qrcode_test";
 $conn = mysqli_connect($DBHost, $DBLogin, $DBPassword);
 $select_db = mysqli_select_db($conn, $DBName);
